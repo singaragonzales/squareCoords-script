@@ -1,16 +1,19 @@
 # Ejecutar el sgte comando:
 
-node main.js <latitutd> <longitud> <radio>
+node main.js "latitutd" "longitud" "radio (en metros)"
+
+Ejemplo: node main.js 51.5085300 -0.1257400 50
   
 # Ejemplo de respuesta:
   
   {
   
-    esquinaSuperiorIzquierda: { latitude: -12.069104499099998, longitude: -77.06553834715977 },
+  esquinaSuperiorIzquierda: { latitude: 51.508979236298295, longitude: -0.1261892362982929 },
   
-    esquinaSuperiorDerecha: { latitude: -12.069104499099998, longitude: -77.06369765284022 },
+  esquinaSuperiorDerecha: { latitude: 51.508979236298295, longitude: -0.12529076370170708 },
   
-    esquinaInferiorDerecha: { latitude: -12.070904500900001, longitude: -77.06369765284022 },
+  esquinaInferiorIzquierda: { latitude: 51.508080763701706, longitude: -0.1261892362982929 },
   
-    esquinaInferiorIzquierda: { latitude: -12.070904500900001, longitude: -77.06553834715977 }
+  esquinaInferiorDerecha: { latitude: 51.508080763701706, longitude: -0.12529076370170708 }
+  
   }
